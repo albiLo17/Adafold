@@ -32,13 +32,15 @@ To run the data collection for the folding task, run:
 python data_collection.py
 ``` 
 
-Please refer to `Adafold/dataset_collection/dataset_args.py` for the available arguments for the data collection.
+Refer to `Adafold/dataset_collection/dataset_args.py` for the available arguments for the data collection.
 
 ## Training Dynamics Model
 To train the dynamics model on the collected dataset, run:
 ```bash
 python train_dynamics.py
 ``` 
+Refer to `Adafold/args/arguments.py` for the available arguments for the data collection.
+
 
 ## Planning 
 An example of how to plan with the learned model can be seen by running:
